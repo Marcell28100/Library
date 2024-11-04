@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "Library.Controllers.StudentController",
+    "Method": "Post",
+    "RelativePath": "student",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createStudentDto",
+        "Type": "Library.Models.CreateStudentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Library.Models.Student",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
